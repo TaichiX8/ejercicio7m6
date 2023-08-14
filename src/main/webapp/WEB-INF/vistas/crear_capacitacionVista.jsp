@@ -57,8 +57,8 @@
             </div>
             <div class="mb-3 col-12 col-md-4">
                 <label for="hora" class="form-label">Hora</label>
-                <input type="text" class="form-control" id="hora" value="08:00" name="hora" required>
-                <div class="invalid-feedback">Ingrese una hora válida, ejemplo: 21:30</div>
+                <input type="time" class="form-control" id="hora" value="08:00:00" name="hora" required>
+                <div class="invalid-feedback">Ingrese una hora válida, ejemplo: 21:30:00</div>
             </div>
             <div class="mb-3 col-12 col-md-4">
                 <label for="lugar" class="form-label">Lugar</label>
@@ -66,7 +66,7 @@
             </div>
             <div class="mb-3 col-12 col-md-4">
                 <label for="duracion" class="form-label">Duración</label>
-                <input type="text" class="form-control" id="duracion" name="duracion" required>
+                <input type="time" class="form-control" id="duracion" name="duracion" value="00:00:00" required>
             </div>
             <div class="mb-3 col-12 col-md-4">
                 <label for="cantAsistentes" class="form-label">Cantidad de Asistentes</label>

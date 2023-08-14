@@ -1,6 +1,6 @@
-package com.example.ejercicio3m6.dao;
+package com.example.ejercicio5m6.dao;
 
-import com.example.ejercicio3m6.modelos.Capacitacion;
+import com.example.ejercicio5m6.modelos.Capacitacion;
 
 import java.util.List;
 
