@@ -36,7 +36,7 @@
 
 
 
-        <form action="contacto-servlet" method="post" id="contacto">
+        <form action="contacto" method="post" id="contacto">
             <p align="center">
 
                 Escribe tu nombre <br><br>

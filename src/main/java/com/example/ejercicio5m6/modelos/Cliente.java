@@ -25,10 +25,10 @@ public class Cliente {
     private String telefono;
     private String afp;
     @Column(name = "sistema_salud")
-    private String sistemaSalud;
+    private Integer sistemaSalud;
 
     @OneToOne (cascade = CascadeType.ALL)
-    @JoinColumn(name="idUsuario")
+    @JoinColumn(name="id_usuario")
     private Usuario usuario;
 
 }

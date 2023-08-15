@@ -24,7 +24,7 @@ public class UsuarioControlador {
     public String listarUsuarios(Model model) {
         List<Usuario> usuarios = usuarioServicio.listaUsuarios();
         model.addAttribute("usuarios", usuarios);
-        return "listaUsuarios";
+        return "lista_usuario";
     }
 
     @GetMapping("/crear-usuario")
@@ -34,8 +34,8 @@ public class UsuarioControlador {
 
     }
 
-    GetMapping("/crear-usuario")
-    public String crearUsuario(Model model) {
+    @PostMapping("/crear-usuario")
+    public String guardarUsuario(Model model) {
         model.addAttribute("usuario", new Usuario());
         return "lista_usuarios";
 

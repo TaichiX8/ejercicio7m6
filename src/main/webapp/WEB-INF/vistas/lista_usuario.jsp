@@ -45,7 +45,7 @@
 
         <%
 
-            List<Usuario> usuarios = (ArrayList<Usuario>)request.getAttribute("listaUsuario");
+            List<Usuario> usuarios = (ArrayList<Usuario>)request.getAttribute("usuarios");
 
             for(Usuario us : usuarios)
             {
