@@ -14,8 +14,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.sql.Time;
 import java.util.logging.*;
 
-import java.util.List;
-
 @Controller
 
 public class CapacitacionControlador {
@@ -28,7 +26,7 @@ public class CapacitacionControlador {
     @GetMapping("/crear_capacitacion")
     public String crearCapacitacion() {
         LOG_MONITOREO.log(Level.INFO, "CapacitacionControlador : crear capacitacion formulario");
-        return "crear_capacitacionVista";
+        return "crear_capacitacion";
     }
 
     @PostMapping("/crearCapacitacion")
@@ -63,10 +61,10 @@ public class CapacitacionControlador {
 
             System.out.println(capacitacionServicio.listaCapacitacion());
 
-            return "listar_capacitacionVista";
+            return "listar_capacitacion";
         }catch( Exception e){
             LOG_MONITOREO.log(Level.WARNING, "CapacitacionControlador Listar Error :" +  e.getMessage());
-            return "listar_capacitacionVista";
+            return "listar_capacitacion";
         }
     }
 
@@ -94,7 +92,7 @@ public class CapacitacionControlador {
             System.out.println(capacitacion.toString());
 
             LOG_MONITOREO.log(Level.INFO, "CapacitacionControlador : Se ha guardado la capacitación");
-            return "listar_capacitacionVista";
+            return "listar_capacitacion";
 
         }catch( Exception e){
 
