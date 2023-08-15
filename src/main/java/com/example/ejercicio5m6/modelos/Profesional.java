@@ -27,7 +27,7 @@ public class Profesional {
     @Column( name = "fecha_ingreso" , nullable = false)
     private Date fechaIngreso;
 
-    @OneToOne()
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_usuario")
     private Usuario usuario;
 }

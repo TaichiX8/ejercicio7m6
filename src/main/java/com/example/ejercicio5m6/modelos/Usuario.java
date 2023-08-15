@@ -27,6 +27,12 @@ public class Usuario {
     @Column(name = "tipo_usuario", nullable = false)
     private String tipoUsuario;
 
+    @OneToOne(mappedBy = "usuario")
+    private Profesional profesional;
 
+    @OneToOne(mappedBy = "usuario")
+    private Administrativo administrativo;
 
+    @OneToOne(mappedBy = "usuario")
+    private Cliente cliente;
 }

@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
@@ -26,10 +27,17 @@ public class UsuarioControlador {
         return "listaUsuarios";
     }
 
+    @GetMapping("/crear-usuario")
+    public String crearUsuario(Model model) {
+        model.addAttribute("usuario", new Usuario());
+        return "crear_usuarios";
+
+    }
+
     GetMapping("/crear-usuario")
     public String crearUsuario(Model model) {
         model.addAttribute("usuario", new Usuario());
-        return "crearUsuario";
+        return "lista_usuarios";
 
     }
 
