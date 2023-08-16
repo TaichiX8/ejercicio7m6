@@ -34,7 +34,7 @@
             Contacto
         </h2>
 
-
+        <%= request.getAttribute("respuesta") %>
 
         <form action="contacto" method="post" id="contacto">
             <p align="center">

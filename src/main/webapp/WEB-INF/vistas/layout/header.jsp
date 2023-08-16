@@ -29,6 +29,16 @@
                                 <li><a class="dropdown-item" href="crear_capacitacion">Crear Capacitaci&oacute;n</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Admin Usuarios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="usuarios">Listado Usuarios</a></li>
+                                <li><a class="dropdown-item" href="crear-usuario">Crear Usuario</a></li>
+
+                            </ul>
+                        </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="contacto">Contacto</a>

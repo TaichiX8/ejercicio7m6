@@ -11,7 +11,7 @@ public class ContactoControlador {
 
     @GetMapping("/contacto")
     public String contacto( Model model ) {
-        model.addAttribute("respuesta" , "x");
+        model.addAttribute("respuesta" , "");
         return "contacto";
     }
 
