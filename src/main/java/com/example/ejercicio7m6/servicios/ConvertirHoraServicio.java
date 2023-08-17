@@ -1,4 +1,4 @@
-package com.example.ejercicio5m6.servicios;
+package com.example.ejercicio7m6.servicios;
 
 import org.springframework.stereotype.Service;
 

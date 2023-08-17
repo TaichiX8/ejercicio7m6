@@ -1,4 +1,4 @@
-<%@ page import="com.example.ejercicio5m6.modelos.Capacitacion" %>
+<%@ page import="com.example.ejercicio7m6.modelos.Capacitacion" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.

@@ -1,4 +1,4 @@
-package com.example.ejercicio5m6.controladores;
+package com.example.ejercicio7m6.controladores;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

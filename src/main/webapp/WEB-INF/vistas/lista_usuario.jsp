@@ -1,7 +1,7 @@
 
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="com.example.ejercicio5m6.modelos.Usuario" %>
+<%@ page import="com.example.ejercicio7m6.modelos.Usuario" %>
 <%--
   Created by IntelliJ IDEA.
   User: heckomher

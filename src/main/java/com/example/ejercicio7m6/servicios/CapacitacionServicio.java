@@ -1,8 +1,8 @@
-package com.example.ejercicio5m6.servicios;
+package com.example.ejercicio7m6.servicios;
 
 
-import com.example.ejercicio5m6.modelos.Capacitacion;
-import com.example.ejercicio5m6.repositorios.ICapacitacionRepositorio;
+import com.example.ejercicio7m6.modelos.Capacitacion;
+import com.example.ejercicio7m6.repositorios.ICapacitacionRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

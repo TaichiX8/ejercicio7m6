@@ -1,4 +1,4 @@
-package com.example.ejercicio5m6;
+package com.example.ejercicio7m6;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

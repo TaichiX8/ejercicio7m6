@@ -1,5 +1,4 @@
-package com.example.ejercicio5m6.modelos;
-
+package com.example.ejercicio7m6.modelos;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -7,25 +6,28 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Entity
+@Table(name = "profesionales")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-@Table(name = "administrativos")
-public class Administrativo {
+
+public class Profesional {
 
     @Id
     @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
-    @Column(name = "id_administrativo")
-    private Long idAdministrativo;
+    @Column(name = "id_profesional")
+    private Long idProfesional;
 
-    private String area;
-    @Column(name = "experiencia_previa")
-    private String experienciaPrevia;
+    private String titulo;
+    @Temporal(TemporalType.DATE)
+    @Column( name = "fecha_ingreso" , nullable = false)
+    private Date fechaIngreso;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_usuario")
     private Usuario usuario;
-
 }

@@ -1,9 +1,9 @@
-package com.example.ejercicio5m6.controladores;
+package com.example.ejercicio7m6.controladores;
 
-import com.example.ejercicio5m6.modelos.Capacitacion;
+import com.example.ejercicio7m6.modelos.Capacitacion;
 
-import com.example.ejercicio5m6.dao.CapacitacionDao;
-import com.example.ejercicio5m6.servicios.CapacitacionServicio;
+import com.example.ejercicio7m6.dao.CapacitacionDao;
+import com.example.ejercicio7m6.servicios.CapacitacionServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

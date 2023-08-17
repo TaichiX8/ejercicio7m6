@@ -1,10 +1,10 @@
-package com.example.ejercicio5m6.servicios;
+package com.example.ejercicio7m6.servicios;
 
-import com.example.ejercicio5m6.modelos.Usuario;
-import com.example.ejercicio5m6.repositorios.IAdministrativoRepositorio;
-import com.example.ejercicio5m6.repositorios.IClienteRepositorio;
-import com.example.ejercicio5m6.repositorios.IProfesionalRepositorio;
-import com.example.ejercicio5m6.repositorios.IUsuarioRepositorio;
+import com.example.ejercicio7m6.modelos.Usuario;
+import com.example.ejercicio7m6.repositorios.IAdministrativoRepositorio;
+import com.example.ejercicio7m6.repositorios.IClienteRepositorio;
+import com.example.ejercicio7m6.repositorios.IProfesionalRepositorio;
+import com.example.ejercicio7m6.repositorios.IUsuarioRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

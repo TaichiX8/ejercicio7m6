@@ -1,7 +1,7 @@
-package com.example.ejercicio5m6.controladores;
+package com.example.ejercicio7m6.controladores;
 
-import com.example.ejercicio5m6.modelos.Usuario;
-import com.example.ejercicio5m6.servicios.UsuarioServicio;
+import com.example.ejercicio7m6.modelos.Usuario;
+import com.example.ejercicio7m6.servicios.UsuarioServicio;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

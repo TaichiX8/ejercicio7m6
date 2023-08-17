@@ -1,4 +1,4 @@
-package com.example.ejercicio5m6.modelos;
+package com.example.ejercicio7m6.modelos;
 
 import jakarta.persistence.*;
 import lombok.*;

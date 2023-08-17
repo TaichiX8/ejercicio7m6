@@ -1,5 +1,5 @@
-package com.example.ejercicio5m6.dao;
-import com.example.ejercicio5m6.modelos.Capacitacion;
+package com.example.ejercicio7m6.dao;
+import com.example.ejercicio7m6.modelos.Capacitacion;
 import java.util.ArrayList;
 import java.util.List;
 public class CapacitacionDao implements ICapacitacionDAO {
